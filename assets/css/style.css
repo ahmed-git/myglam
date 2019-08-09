@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#home {
+    background: url('../images/slider_image_home@1x.png') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+
+.carousel-control-prev-icon {
+    background-image: url('../images/arrow_left_actif@1x.png');
+}
+
+.carousel-control-next-icon {
+    background-image: url('../images/arrow_right_actif@1x.png');
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-image: url('../images/slider_dot_pressed@1x.png');
+}
+
+#contact {
+    background-color: lavender;
+    
+}
+
+#pl {
+    background: url('../images/news_letter_background_image_home@1x.png') center center no-repeat;
+    background-size: cover;
+    height: 70%;
+}
+
+.header-text {
+    position: absolute;
+    top: 20%;
+    left: 1.8%;
+    right: auto;
+    width: 100%;
+    color: #fff;
+}
+
